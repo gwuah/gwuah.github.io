@@ -45,7 +45,7 @@
 		}
 
 		const googleApiLoaded = function() {
-			gapi.client.setApiKey("Put api key here");
+			gapi.client.setApiKey("AIzaSyCPYjwoXEGBFjH7Ew79zLQr7zdABL_Meww");
 			gapi.client.load("urlshortener", "v1", shortenUrl);
 			// show("card");
 		};
