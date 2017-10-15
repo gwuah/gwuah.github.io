@@ -31,6 +31,7 @@ header {
 #title {
     display: inline-block;
 }
+
 #title h1 {
     color: #fc3;
     font-size: 70px;
@@ -287,6 +288,51 @@ footer a {
     font-size: 17px;
     margin-left: 2px;
 }
+
+/* media queries */
+
+@media screen and (max-width: 1024px) {
+   
+}
+
+@media screen and (max-width: 320px) {
+    header {
+        height: 63vh;
+    }
+    #header-items-container {
+        padding-top: 41px;
+    }
+
+    #implementation {
+        padding: 35px 18px -10px 18px; ;
+        box-sizing: border-box;
+        height: 400px;
+    }
+    
+    #usage {
+        height: 380px;
+    }
+    
+    #misc {
+        position: relative;
+        top: 60px;
+        text-align: center;
+    }
+    
+    #implementation code {
+        font-size: 11px;
+    }
+    
+    #title h1 {
+        font-size: 60px;
+    }
+    
+    #product-tag {
+        font-size: 23px;
+    }
+}
+
+/* end of media queries */
 
 
 
