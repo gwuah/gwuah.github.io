@@ -342,7 +342,7 @@ footer a {
 
 @media screen and (max-width: 320px) {
     header {
-        height: 75vh;
+        height: 82vh;
     }
     #header-items-container {
         padding-top: 41px;
